@@ -6,7 +6,7 @@ public class SlovakLanguage extends Sublejct {
         if (text == null) {
             return null;
         }
-        String text2 = text.substring(0, 1).toUpperCase() + text.substring(1);
+        String text2 = text.toLowerCase().substring(0, 1).toUpperCase() + text.toLowerCase().substring(1);
         if (text2.charAt(text.length() - 1) == '.' || text2.charAt(text.length() - 1) == '!' || text2.charAt(text.length() - 1) == '?') {
             ;
         } else {
