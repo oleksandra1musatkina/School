@@ -14,4 +14,18 @@ public class Math extends Sublejct {
         return Integer.parseInt(string);
     }
 
+    public boolean isPrime(int cislo) {
+        if (cislo == 0 || cislo == 1) {
+            return true;
+        } else {
+            for (int i = 2; i <= cislo / 2; i++) {
+                if (cislo % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+
+        }
+    }
+
 }

@@ -36,5 +36,11 @@ public class Main {
         System.out.println("druhe zmenenie pes: " + other.convert2("pes"));
         System.out.println("tretie zmenenie pes: " + other.convert3("pes"));
 
+
+        System.out.println("je 3 prvocislo?: " + math.isPrime(3));
+        System.out.println("je 7 prvocislo?: " + math.isPrime(7));
+        System.out.println("je 80 prvocislo?: " + math.isPrime(80));
+        System.out.println("je 21 prvocislo?: " + math.isPrime(21));
+
     }
 }
